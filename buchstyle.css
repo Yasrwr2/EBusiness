@@ -1,28 +1,32 @@
 h1{
     font-family: Arial, Helvetica, sans-serif;
 }
-#auswahl{
+
+
+ul{
     list-style-type: none;
-    margin:0;
-    padding:0;
-
-}
-.navigation{
-        float: left;
-        text-align: center;
-        width: 33%;
-}
-
-.navbar {
-    display: inline;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #dddddd;
+    border: 1px solid #e7e7e7;
+
+}
+li{
+        float: left;
+        
+}
+
+li a {
+        display: block;
+        padding: 15px; 
     font-family: Arial, Helvetica, sans-serif;
   }
 
   p{
       font-size: medium;
-      padding-top: 8px;
+      padding: 8px;
+
   }
 
 img{
@@ -30,9 +34,22 @@ img{
     width: 100%;
 }
 
+.buch{
+    background-color: lightgrey;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+
 input{
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
+
+
+
+
+
