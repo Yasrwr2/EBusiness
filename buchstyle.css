@@ -58,6 +58,24 @@ input{
     box-sizing: border-box;
 }
 
+.column{
+    background-color: lightgrey gb(0, 0, 0);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.column-row{
+    
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
 
