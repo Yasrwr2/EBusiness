@@ -139,7 +139,57 @@ input, textarea{
 
 /* footer end */
 
+/* Angebot start */
 
+.container1{
+    display:grid;
+    height:100vh;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "side book1 book2 book3 space"
+    "side book4 book5 book6 space";
+    grid-gap: 0.8rem;
+}
 
+#side{
+    grid-area:side;
+}
 
+#book1{
+    grid-area:book1;
+}
 
+#book2{
+    grid-area:book2;
+}
+
+#book3{
+    grid-area:book3;
+}
+
+#book4{
+    grid-area:book4;
+}
+
+#book5{
+    grid-area:book5;
+}
+
+#book6{
+    grid-area:book6;
+}
+
+@media only screen and (max-width:550px) {
+    .container1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr;
+        grid-template-areas:
+            "side side"
+            "book1 book2"
+            "book3 book4"
+            "book5 book6";
+    }
+}
+
+/* Angebot end */
