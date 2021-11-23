@@ -1,7 +1,16 @@
-h1{
+/*Header Start*/
+
+*{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 8px;
 }
+
+.header{
+
+    padding: 12px;
+    text-align: center;
+}
+
+    
 
 
 ul{
@@ -27,19 +36,19 @@ li{
 li a {
         display: block;
         padding: 15px; 
-    font-family: Arial, Helvetica, sans-serif;
   }
 
 
   p{
       font-size: medium;
-      padding: 8px;
+      padding: 16px;
 
   }
 
 img{
     height: 280px;
     width: 100%;
+    padding-top: 8px;
 }
 
 .buch{
@@ -49,6 +58,8 @@ img{
     
 }
 
+/*Kontaktformular*/
+
 .formular{
     background-color: lightgrey;
     width: 50%;
@@ -56,6 +67,15 @@ img{
     margin: 0 auto;
     margin-bottom: 24px;
     
+}
+
+.mail{
+    text-align: center;
+}
+
+h4{
+    padding: 8px;
+    padding-left: 0;
 }
 
 
@@ -95,7 +115,6 @@ input, textarea{
 }
 
 .footer-col h2{
-    font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
     margin-bottom: 30px;
     position: relative;
