@@ -14,7 +14,7 @@
     
 
 
-ul{
+nav ul, footer ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ nav ul{
 }
 
 
-li{
+nav li, footer li{
         float: left;
         
 }
@@ -149,7 +149,8 @@ input, textarea{
     grid-template-areas: 
     "side book1 book2 book3 space"
     "side book4 book5 book6 space";
-    grid-gap: 0.8rem;
+    /*grid-gap: 0.8rem;*/
+    grid-gap: 16px;
     margin-bottom: 50px;
 }
 
@@ -181,6 +182,10 @@ input, textarea{
 #book6{
     grid-area:book6;
 }
+h5{
+    text-decoration: underline;
+}
+
 
 @media only screen and (max-width:550px) {
     .container1{
