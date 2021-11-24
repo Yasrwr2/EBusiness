@@ -1,3 +1,4 @@
+
 /*Header Start*/
 
 *{
@@ -23,7 +24,7 @@ ul{
     
 }
 nav ul{
-    background-color: lightgrey;
+    background-color: lightblue;
 
 }
 
@@ -95,7 +96,7 @@ input, textarea{
 }
 
 .footer{
-    background-color: grey;
+    background-color:lightblue;
     padding: 70px 0;
 }
 
@@ -131,7 +132,7 @@ input, textarea{
     font-size: 15px;
     text-transform: capitalize;
     display: block;
-    color: white;
+    color: black;
     transition: all 0.3s ease;
     font-weight: 200;
     text-decoration: none;
@@ -154,6 +155,7 @@ input, textarea{
 
 #side{
     grid-area:side;
+    padding-left: 8px;
 }
 
 #book1{
@@ -193,3 +195,6 @@ input, textarea{
 }
 
 /* Angebot end */
+
+
+
