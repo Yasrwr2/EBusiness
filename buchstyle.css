@@ -159,6 +159,11 @@ input, textarea{
     padding-left: 8px;
 }
 
+#space{
+    grid-area:space;
+    padding-left: 8px;
+}
+
 #book1{
     grid-area:book1;
 }
@@ -201,5 +206,11 @@ h5{
 
 /* Angebot end */
 
-
+#button {
+    background-color: lightgrey;
+    padding: 10px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
